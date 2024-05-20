@@ -1,0 +1,162 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(206, 206, 206);
+    background-color: black;
+}
+canvas{
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 33%;
+    top: 105px;
+}
+#snakeCanvas{
+    background-color: black;
+}
+#playBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+#play {
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    position: absolute;
+    top: 44%;
+    z-index: 2;
+}
+#button{
+    position: absolute;
+    left: 46%;
+    top: 55%;
+}
+#play_again{
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: green;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+#scoreBox{
+    border: 5px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 165px;
+    position: absolute;
+    left: 68%;
+    top: 15%;
+    color: white;
+}
+#score{
+    padding-left: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    position: relative;
+    left: -16px;
+}
+#control{
+    width: 165px;
+    position: absolute;
+    top: 80px;
+    border-top: 4px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+#controls{
+    position: absolute;
+    top: 140px;
+}
+#chooseBox{
+    border: 5px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 290px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    color: white;
+}
+#player{
+    padding-left: 10px;
+}
+#chooseBut{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: green;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+#nameInput{
+    position: relative;
+    left:10px;
+    height: 20px;
+    border-radius: 7px;
+}
+#submitBut{
+    position: relative;
+    left:10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: green;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+#clearBut{
+    position: absolute;
+    left:10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: green;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+#selectSpeed{
+    height: 500px;
+    width: 290px;
+    position: absolute;
+    left: 189px;
+    top: 35%;
+    color: white;
+    border-top: 5px solid white;
+}
+#speed{
+    height: 20px;
+    border-radius: 7px;
+}
+#apply{
+    position: relative;
+    left:10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: green;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+#contains{
+    position: relative;
+    left: 10px;
+}
+.inside{
+    border-top: 1px solid white;
+    position: relative;
+    left: -10px;
+    padding-left: 10px;
+}
+#tip{
+    position: absolute;
+    top: 360px;
+    border-top: 5px solid white;
+    padding: 20px;
+}

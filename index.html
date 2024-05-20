@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake-Game</title>
+    <link rel="icon" type="image/x-icon" href="snake.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+
+    <div id="container">
+        <canvas id="snakeCanvas"></canvas>
+        <canvas id="foodCanvas"></canvas>
+    </div>
+
+        
+    <div  id="playBox">
+        <h1  id="play" hidden>Press enter to play</h1>
+    </div>
+
+    <div id="button">
+        <button id="play_again" hidden disabled>
+            <b>Play again</b>
+        </button>
+    </div>
+    
+    <div id="scoreBox">
+        <h2 id="score" >Score: </h2>
+        <div id="control">
+            <ul>
+                <li>
+                    <h2>Keys</h2>
+                </li>
+            </ul>
+        </div>
+
+        <ul id="controls">
+            <li>
+                <h4></h4>↑-Move Up</h4>
+            </li>
+
+            <li>
+                <h4></h4>↓-Move Down</h4>
+            </li>
+
+            <li>
+                <h4></h4>→ -Move Right</h4>
+            </li>
+
+            <li>
+                <h4></h4>← -Move Left</h4>
+            </li>
+        </ul>
+        <br>
+        <h4 id="tip">Your score is multiplied by your speed</h4>
+    </div>
+
+
+    <div id="chooseBox">
+        <h2 id="player">Player: </h2>
+        <button id="chooseBut">Choose</button>
+        <input type="text" id="nameInput">
+        <button id="submitBut">submit</button>
+        <button id="clearBut">Remove</button>
+    </div>
+
+    <div id="selectSpeed">
+        <di id="contains">
+            <h1 id="actualSpeed">Speed:</h1>
+                <div class="inside">
+                    <h2 id="selectText">Select speed</h2>
+                    <input type="number" id="speed">
+                    <button id="apply">Apply</button>
+                </div>
+        </di>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="eventhandling.js"></script>
+    <script src="extra.js"></script>
+</body>
+</html>
