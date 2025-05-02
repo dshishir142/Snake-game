@@ -30,11 +30,11 @@ Just open the index.html file in your browser:
 No server setup or installations needed!
 ---
 🛠 Tech Used
+
 HTML5 canvas
-
 Vanilla JavaScript (no frameworks)
-
 CSS3
+
 ---
 📌 Future Enhancements (Optional)
 - 🎵 Sound effects and background music
