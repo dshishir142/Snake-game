@@ -1,4 +1,4 @@
-🐍 Advanced Snake Game
+🐍  Snake Game
 
 A modern twist on the classic Snake game built using HTML, CSS, and JavaScript with canvas. This version features smoother movement, adjustable speed, and automated high score tracking using localStorage.
 
