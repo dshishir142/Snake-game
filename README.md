@@ -32,7 +32,9 @@ No server setup or installations needed!
 🛠 Tech Used
 
 HTML5 canvas
+
 Vanilla JavaScript (no frameworks)
+
 CSS3
 
 ---
